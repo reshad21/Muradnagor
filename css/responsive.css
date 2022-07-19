@@ -1,0 +1,89 @@
+
+/*media query css*/
+@media (max-width: 1440px){
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+			max-width: 1200px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.trade-license-info-no small {
+		padding: 0 17px;
+	}
+	.vip-signature-sect ul li{
+		display: inline-block;
+		margin: 0 164px;
+		border-top: 2px solid #949494;
+	}
+
+}
+
+@media (max-width: 991px){
+	.trade-license-info-no small {
+		padding: 0 13px;
+	}
+	.disclimer-message p{
+		font-size: 18px;
+	}
+	.vip-signature-sect ul li{
+		display: inline-block;
+		margin: 0 109px;
+		border-top: 2px solid #949494;
+	}
+}
+
+
+@media (max-width: 767px){
+
+	.person-trade-license{
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+	.personal-trade-lin-pic{
+		text-align: center;
+	}
+	.trade-license-info-no small {
+		padding: 0 6px;
+	}
+	.disclimer-message p{
+		font-size: 14px;text-align: inherit;
+	}
+	.vip-signature-sect ul li{
+		display: inline-block;
+		margin: 0 60px;
+		border-top: 2px solid #949494;
+	}
+	.trms-condt-left:before{
+		display: none;
+	}
+
+}
+@media (max-width: 576px){
+	.person-trade-license{
+		text-align: center;
+	}
+	.trade-license-info-no small {
+		padding: 0 3px;
+	}
+	.disclimer-message p{
+		font-size: 13px;text-align: inherit;
+	}
+	.vip-signature-sect ul li{
+		display: inline-block;
+		margin: 0 26px;
+		border-top: 2px solid #949494;
+	}
+
+}
+
+@media (max-width: 445px){
+	.trade-license-info-no small {
+		padding: 0 1px;
+	}
+	.vip-signature-sect ul li{
+		display: inline-block;
+		margin: 0 13px;
+		border-top: 2px solid #949494;
+	}
+}
